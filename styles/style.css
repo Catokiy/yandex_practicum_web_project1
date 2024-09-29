@@ -81,7 +81,6 @@
   margin: 100px auto;
   width: 80%; 
   min-width: 784px;
-  border: red solid 3px; /*temp*/
 }
 
 .two-columns__brief {
@@ -90,12 +89,41 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text{
-  border: red solid 5px;
-  width: 100px;
+  width: 80%; 
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph_position_side {
+  margin: 0;
+}
+
+.two-columns__paragraph_position_center {
+  margin: 30px 0;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.digits {
+  display: flex;
+}
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
